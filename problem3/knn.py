@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------
-# AUTHOR: Joseph Lu a
+# AUTHOR: Joseph Luna
 # FILENAME: knn.py
 # SPECIFICATION: runs SKLearn's k nearest neighbor algorithm on CSV file provided for assignment
 # FOR: CS 4210- Assignment #2
@@ -21,7 +21,7 @@ with open('binary_points.csv', 'r') as csvfile:
       if i > 0: #skipping the header
          db.append (row)
 
-print(db)
+#print(db)
 
 #loop your data to allow each instance to be your test set
 index = 0
